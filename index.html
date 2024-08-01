@@ -5,18 +5,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
 
-    <link rel="stylesheet" href="estilos/style.css">
+   <!--
+     Typical Device Breakpoints 
+    --------------------------------
+    Pequenas telas: até 600px
+    Celular: de 600px até 768px
+    Tablet: 768px até 992px
+    Desktop: 992px até 1200px
+    Grandes Telas: acima de 1200px
+   -->
+
+    <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="estilos/style.css" media="all">
+    <link rel="stylesheet" href="estilos/tablet.css" media="screen and (min-width: 768px) and (max-width:992px)">
+    <link rel="stylesheet" href="estilos/desktop.css" media="screen and (min-width: 992px) and (max-width: 1200px)">
+    <link rel="stylesheet" href="estilos/big-screen.css" media="screen and (min-width: 1200px)">
 </head>
 <body>
 
     <main>
-        <section id="Login">
+        <section id="login">
 
             <div id="imagem">
-
+                <!--Aqui vai a imagem nas CSS-->
             </div>
 
-            <div id="formulário">
+            <div id="formulario">
                 <h1>Login</h1>
                 <p>Seja bem-vindo(a) novamente. Faça login para acessar sua conta e poder fazer as configurações no seu ambiente.</p>
 
